@@ -1,6 +1,6 @@
 # Serverless Web Application with AWS Pipeline
 
-This repository hosts a modern, minimalist web application designed to capture contact form submissions and process them using an AWS serverless architecture. It leverages AWS Lambda, API Gateway, and a CI/CD pipeline for seamless deployment.
+This repository hosts a minimalist web application designed to capture contact form submissions and process them using an AWS serverless architecture. It leverages AWS Lambda, API Gateway, and a CI/CD pipeline for seamless deployment.
 
 ---
 
@@ -47,7 +47,6 @@ The web application integrates with AWS services as follows:
 
 ### Prerequisites
 - An AWS account with the required permissions for Lambda, API Gateway, and CodePipeline.
-- Node.js and npm (for local development if needed).
 - A text editor like VSCode.
 
 ### Deployment Steps
@@ -75,7 +74,7 @@ Usage
 
 Technologies Used
 
-	•	Frontend: HTML5, CSS3, JavaScript
+	•	Frontend: HTML, CSS, JavaScript
 	•	Backend: AWS Lambda (Serverless Function)
 	•	API Management: AWS API Gateway
 	•	CI/CD: AWS CodePipeline
