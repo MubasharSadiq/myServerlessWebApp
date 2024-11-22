@@ -9,7 +9,7 @@ form.addEventListener('submit', async (event) => {
     const message = document.getElementById('message').value;
 
     // Prepare API endpoint and request body
-    const apiUrl = 'https://tm5dact6dh.execute-api.eu-west-1.amazonaws.com/default/addcontactinfo';
+    const apiUrl = 'https://tm5dact6dh.execute-api.eu-west-1.amazonaws.com/default/addcontactinfo'; // Upadted apiUrl
     const requestBody = JSON.stringify({
         name: name,
         email: email,
